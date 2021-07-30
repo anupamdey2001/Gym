@@ -1,0 +1,123 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/background1.jpg') no-repeat center center/cover ;
+    background-size: 50vw 100vh;
+}
+.container {
+    border: 2px solid white;
+    color: white;
+    background-color: white;
+    margin: 2.1875rem auto;
+    padding: 2.75rem;
+    display: block;
+    width: 34%;
+    border-radius: 6.25rem;
+}
+
+.left {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3rem;
+    top: 1.125rem;
+}
+
+.left i {
+    font-size: 2rem;
+margin-bottom: .5rem;
+}
+
+.left div {
+    text-align: center;
+    line-height: .5rem;
+    font-size: 1.125rem;
+}
+
+.mid {
+    border: 2px solid white;
+    color: white;
+    display: block;
+    width: 28.5%;
+    margin: 1.125rem auto;
+    border-radius: .8125rem;
+}
+
+.right {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 2.125rem;
+    top: 1.125rem;
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px .6rem;
+    color: white;
+    background-color: black;
+    padding: .25rem .875rem;
+    border-radius: .625rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(194, 194, 194);
+    background-color: rgb(61, 59, 59);
+}
+
+.navber {
+    font-size: 1rem;
+}
+
+.navber li {
+    display: inline-block;
+}
+
+.navber li a {
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+
+}
+
+.navber li a:hover {
+
+    text-decoration: none;
+    color: grey;
+
+}
+
+.form-group input {
+    text-align: center;
+    font-size: 1.1875rem;
+    margin: .625rem auto;
+    padding: .3rem;
+    display: block;
+    width: 97%;
+    border: 2px solid black;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: .375rem;
+}
+
+form .btn {
+    text-align: center;
+    font-size: 1.1875rem;
+    margin: 1.375rem auto;
+    padding: .25rem;
+    display: block;
+    width: 34%;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(40, 138, 218);
+    text-decoration: underline;
+}
